@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}About · Porter's Flask Blog{% endblock %}
+{% block content %}
+<section class="about-card">
+  <img src="{{ url_for('static', filename='avatar.jpg') }}" alt="avatar" class="about-avatar" onerror="this.style.display='none'">
+  <h1>About {{ me.name }}</h1>
+  <p class="muted">{{ me.tagline }}</p>
+  <p>{{ me.bio }}</p>
+
+  <h2>Now</h2>
+  <ul class="now-list">
+    {% for item in me.now %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Links</h2>
+  <p class="about-links">
+    {% for link in me.links %}
+      <a href="{{ link.href }}" target="_blank" rel="noopener">{{ link.label }}</a>
+      {% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
+</section>
+{% endblock %}
+

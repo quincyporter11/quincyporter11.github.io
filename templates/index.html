@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Home · Porter's Flask Blog{% endblock %}
+{% block content %}
+  <h1>Posts</h1>
+  <ul class="post-list">
+    {% for p in posts %}
+      <li class="post-item">
+        <a href="{{ url_for('post', slug=p.slug) }}" class="post-link">{{ p.title }}</a>
+        {% if p.date %}<span class="post-date">· {{ p.date.strftime("%Y-%m-%d") }}</span>{% endif %}
+        {% if p.tags %}
+          <span class="post-tags">
+          {% for t in p.tags %}
+            <span class="tag">{{ t }}</span>
+          {% endfor %}
+          </span>
+        {% endif %}
+      </li>
+    {% else %}
+      <li>No posts yet.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

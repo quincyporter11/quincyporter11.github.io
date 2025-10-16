@@ -1,0 +1,22 @@
+# data/about.yaml
+name: "Quincy Porter"
+tagline: "Network automation • Python • Homelab tinkerer"
+
+bio: >
+  I use this site to share scripts, tools, and experiments from my homelab and
+  professional projects. I enjoy building automation with Flask, asyncio, and
+  customtkinter, plus working with Cisco ISE, Proxmox, Jellyfin setups,
+  TrueNAS, PowerShell, and some Active Directory.
+
+now:
+  - Developing a Flask-powered blog to showcase my code projects.
+  - Building an Android app with python for tracking blood pressure.
+  - Running Jellyfin + TrueNAS with GPU passthrough on Proxmox.
+  - Experimenting with Linux ricing.
+
+links:
+  - { label: "GitHub",   href: "https://github.com/quincyporter11" }
+  - { label: "LinkedIn", href: "https://www.linkedin.com/in/your-handle" }
+  - { label: "Email",    href: "mailto:you@example.com" }
+
+updated: "October 2025"
