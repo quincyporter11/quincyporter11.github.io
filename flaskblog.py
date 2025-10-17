@@ -1,5 +1,6 @@
 from pathlib import Path
 from datetime import datetime
+import re
 import yaml
 import markdown
 import time
@@ -35,6 +36,18 @@ def parse_post(path: Path):
 
     meta.setdefault("title", path.stem)
     meta.setdefault("slug", path.stem)
+
+    # rewrite relative image links: ![alt](./pic.png) -> /static/img/<slug>/pic.png
+    def _rewrite_rel_images(md_text: str, slug: str) -> str:
+
+        return re.sub(
+            r'!\[([^\]]*)\]\((?!https?://|/)([^)]+)\)',
+            lambda m: f'![{m.group(1)}](/static/img/{slug}/{m.group(2)})',
+            md_text
+        )
+    
+    body = _rewrite_rel_images(body, meta["slug"])
+
     # normalize date
     if "date" in meta:
         try:
