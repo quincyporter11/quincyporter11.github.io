@@ -13,11 +13,13 @@
 </head>
 <body>
   <header class="site-header">
-    <!--<a class="brand" href="{{ url_for('index') }}">Porter's Flask Blog</a>-->
-    <nav class="site-nav">
-      <a href="{{ url_for('index')}}">Home</a>
-      <a href=" {{ url_for('about')}}">About</a>
-    </nav>
+    <div class="nav-container">
+        <a class="brand" href="{{ url_for('index') }}">Porter's Flask Blog</a>
+      <nav class="site-nav">
+        <a href="{{ url_for('index')}}">Home</a>
+        <a href=" {{ url_for('about')}}">About</a>
+      </nav>
+    </div>
   </header>
 
   <main class="container">
