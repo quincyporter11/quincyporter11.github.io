@@ -15,6 +15,7 @@ This is a terminal UI I built to quickly view and manage my home lab. It allows 
 ## Screenshots
 ![Main screen](/static/img/homelab-ssh-tui/main.png)
 
+
 ![Active connection](/static/img/homelab-ssh-tui/active_connection.png)
 
 ## Notes / Lessons learned
