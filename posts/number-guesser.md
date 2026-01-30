@@ -5,7 +5,7 @@ date: "2025-10-16"
 tags: ["python", "game"]
 ---
 
-Here is a simple number guessing game I created. I implemented a class to practice object oriented programming. It is currently a simple version with no error handling and three dificulty options.
+Here is a simple number guessing game I created. I implemented a class to practice object oriented programming. It is currently a simple version with no error handling and three difficulty options.
 
 ```python
 import random

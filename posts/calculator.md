@@ -5,12 +5,10 @@ date: "2025-10-17"
 tags: ["python", "GUI"]
 ---
 
-Here's a simple python calulator I created. It is split up into classes to keep everything nice and organized. I "borowed" some code for the calculate class evaluate function but it works pretty well as a one stop shop. This was also my first time using a loop to create all of the required buttons. There's always room for improvement but I think it turned out pretty well.
+Here's a simple python calculator I created. It is split up into classes to keep everything nice and organized. I "borrowed" some code for the calculate class evaluate function but it works pretty well as a one stop shop. This was also my first time using a loop to create all of the required buttons. There's always room for improvement but I think it turned out pretty well.
 
 
 ![Main screen](/static/img/python-calculator/calculator.png)
-
-![Calculator](./calculator.png)
 
 
 ```python
