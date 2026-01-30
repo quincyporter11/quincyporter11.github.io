@@ -20,3 +20,10 @@ This is a terminal UI I built to quickly view and manage my home lab. It allows 
 
 ## Notes / Lessons learned
 My initial plan was to open the SSH connection within the TUI. When I was experimenting with this I discovered I would have to basically create my own terminal within Python. I eventually decided to open the SSH connection in a separate terminal. This allowed my custom themes and any terminal functions to work with minimal effort. All in all, I am very happy with how this project turned out and will keep looking for improvements to make.
+
+<div class="repo-link">
+  <strong>Source Code:</strong><br>
+  <a href="https://github.com/quincyporter11/homelab-ssh-tui" target="_blank" rel="noopener">
+    View on GitHub →
+  </a>
+</div>

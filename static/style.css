@@ -196,17 +196,17 @@ pre code {
 }
 
 /* Container to center content on large screens */
-/*.nav-container {
+.nav-container {
   max-width: 880px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between; /* space between title and nav links */
-  /*padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 /* Brand title */
-/*.brand {
+.brand {
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--fg, #e6e6e6);
@@ -214,19 +214,31 @@ pre code {
 }
 
 /* Navbar links */
-/*.site-nav a {
+.site-nav a {
   margin-left: 1rem;
   text-decoration: none;
   color: var(--link);
   opacity: 0.9;
   transition: opacity 0.2s ease;
 }
-*/
+
 .nav-container {
   max-width: 880px;
   margin: 0 auto;
   text-align: center;
   display: block;
+}
+
+.repo-link {
+  background: var(--card);
+  border-left: 4px solid var(--link);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+}
+
+.repo-link a {
+  font-weight: 600;
 }
 
 .brand {
