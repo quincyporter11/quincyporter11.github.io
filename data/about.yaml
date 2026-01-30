@@ -16,7 +16,7 @@ now:
 
 links:
   - { label: "GitHub",   href: "https://github.com/quincyporter11" }
-  - { label: "LinkedIn", href: "https://www.linkedin.com/in/your-handle" }
-  - { label: "Email",    href: "mailto:you@example.com" }
+#  - { label: "LinkedIn", href: "https://www.linkedin.com/in/your-handle" }
+#  - { label: "Email",    href: "mailto:you@example.com" }
 
-updated: "October 2025"
+updated: "January 2026"
