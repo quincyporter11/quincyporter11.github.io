@@ -209,7 +209,7 @@ pre code {
 .brand {
   font-weight: 700;
   font-size: 1.25rem;
-  color: var(--fg, #e6e6e6);
+  /*color: var(--fg, #e6e6e6);*/
   text-decoration: none;
 }
 
