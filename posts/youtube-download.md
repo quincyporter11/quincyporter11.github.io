@@ -15,9 +15,9 @@ This project is a terminal UI I built to download YouTube videos. It allows a us
 - auto selects best 1080p format
 
 ### Screenshots
-![Main screen](/static/img/youtube-downloader/main.png)
+![Main screen](/static/img/youtube-download/main.png)
 
-![Formats screen](/static/img/youtube-downloader/formats.png)
+![Formats screen](/static/img/youtube-download/formats.png)
 
 ### Notes / Lessons Learned
 This was a pretty fun project to build. I have downloaded YouTube videos using Python before but this was my first time integrating a TUI. I utilized what I learned from my SSH TUI and built this one. It was fairly straight forward. I'm really happy with the progress I made so far. Eventually I might even make it into a downloader and media player. I also may build a separate GUI and web UI as I way to interface with to backend. There are always ways to improve code so I'll keep my eyes out for those as well.
