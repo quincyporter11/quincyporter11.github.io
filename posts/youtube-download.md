@@ -21,3 +21,10 @@ This project is a terminal UI I built to download YouTube videos. It allows a us
 
 ### Notes / Lessons Learned
 This was a pretty fun project to build. I have downloaded YouTube videos using Python before but this was my first time integrating a TUI. I utilized what I learned from my SSH TUI and built this one. It was fairly straight forward. I'm really happy with the progress I made so far. Eventually I might even make it into a downloader and media player. I also may build a separate GUI and web UI as I way to interface with to backend. There are always ways to improve code so I'll keep my eyes out for those as well.
+
+<div class="repo-link">
+  <strong>Source Code:</strong><br>
+  <a href="https://github.com/quincyporter11/yt_downloader" target="_blank" rel="noopener">
+    View on GitHub →
+  </a>
+</div>
